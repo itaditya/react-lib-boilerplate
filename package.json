@@ -1,0 +1,35 @@
+{
+  "name": "react-comp-trial-lib-approach-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "rollup -c",
+    "build:watch": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "itaditya",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^8.5.1",
+    "babel-core": "^6.26.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "postcss-custom-properties": "^7.0.0",
+    "postcss-modules": "^1.1.0",
+    "postcss-nested": "^3.0.0",
+    "rollup": "^0.59.3",
+    "rollup-plugin-babel": "^3.0.4",
+    "rollup-plugin-commonjs": "^9.1.3",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-postcss": "^1.6.1"
+  },
+  "peerDependencies": {
+    "react": "^16.4.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5"
+  }
+}

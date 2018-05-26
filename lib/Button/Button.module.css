@@ -1,0 +1,24 @@
+.square {
+  width: 100px;
+  height: 100px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:root {
+  --primary-color: orange;
+}
+
+.Button {
+  background: var(--primary-color);
+  composes: square;
+  composes: center;
+  &-text {
+    color: var(--primary-color);
+    composes: center;
+  }
+}

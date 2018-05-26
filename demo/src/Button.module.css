@@ -1,0 +1,7 @@
+.Button {
+  background: black;
+}
+
+:global(.btn) {
+  background: red;
+}
